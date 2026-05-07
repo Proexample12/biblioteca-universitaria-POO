@@ -37,20 +37,6 @@
             <version>${hibernate-validator.version}</version>
         </dependency>
 
-        <!-- Jakarta Expression Language API -->
-        <dependency>
-            <groupId>jakarta.el</groupId>
-            <artifactId>jakarta.el-api</artifactId>
-            <version>5.0.1</version>
-        </dependency>
-
-        <!-- Jakarta Expression Language Implementation -->
-        <dependency>
-            <groupId>jakarta.el</groupId>
-            <artifactId>jakarta.el</artifactId>
-            <version>5.0.1</version>
-        </dependency>
-
         <!-- JUnit para testing -->
         <dependency>
             <groupId>junit</groupId>
