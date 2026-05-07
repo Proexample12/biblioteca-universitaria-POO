@@ -37,15 +37,16 @@
             <version>${hibernate-validator.version}</version>
         </dependency>
 
-        <!-- Jakarta Expression Language -->
+        <!-- Jakarta Expression Language API -->
         <dependency>
             <groupId>jakarta.el</groupId>
             <artifactId>jakarta.el-api</artifactId>
             <version>5.0.1</version>
         </dependency>
 
+        <!-- Jakarta Expression Language Implementation -->
         <dependency>
-            <groupId>org.glassfish</groupId>
+            <groupId>jakarta.el</groupId>
             <artifactId>jakarta.el</artifactId>
             <version>5.0.1</version>
         </dependency>
@@ -81,6 +82,11 @@
                         </manifest>
                     </archive>
                 </configuration>
+            </plugin>
+            <plugin>
+                <groupId>org.codehaus.mojo</groupId>
+                <artifactId>exec-maven-plugin</artifactId>
+                <version>3.0.0</version>
             </plugin>
         </plugins>
     </build>
